@@ -18,7 +18,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.audio.pro.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.audio.pro.xml
 
 PRODUCT_COPY_FILES += \
-    $(PLATFORM_PATH)/config/permissions/privapp-permissions-fdroid.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-fdroid.xml \
     $(PLATFORM_PATH)/config/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     $(PLATFORM_PATH)/config/permissions/privapp-permissions-sony.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-sony.xml
 

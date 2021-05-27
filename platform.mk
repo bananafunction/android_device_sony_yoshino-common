@@ -20,14 +20,7 @@ PRODUCT_SOONG_NAMESPACES += \
     $(PLATFORM_PATH) \
     hardware/google/pixel
 
-### PLATFORM INIT
-PRODUCT_PACKAGES += \
-    init.yoshino.usb \
-    init.yoshino.pwr \
-    init.yoshino.idd.rc \
-    init.yoshino.qns.rc \
-    idd.fstab \
-    qns.fstab
+QCOM_SOONG_NAMESPACE := $(PLATFORM_PATH)/hardware/qcom-caf
 
 # For android_filesystem_config.h permissions
 PRODUCT_PACKAGES += \

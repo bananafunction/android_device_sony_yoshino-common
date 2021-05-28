@@ -31,10 +31,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     charger_res_images
 
-### COVER
-PRODUCT_PACKAGES += \
-    FlipFlap
-
 ### DPM
 PRODUCT_PACKAGES += \
     libshim_dpmframework
